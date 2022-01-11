@@ -1,0 +1,65 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--title-text-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+/* site-nave */
+.site-nav .link {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+.site-nav .link.current {
+}
+/* Hero */
+.hero-title {
+  color: var(--title-text-color);
+}
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Feature */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Examples */
+.work-list .title {
+  color: var(--title-text-color);
+}
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+/* Цвет основного текста #000000 */
+/* Вторичный цвет текста rgba(0, 0, 0, 0.8) */
+/* Белый #FFFFFF */
+/* Акцент #18A0FB */
+/* Вторичный цвет фона #F5F5F5 */
